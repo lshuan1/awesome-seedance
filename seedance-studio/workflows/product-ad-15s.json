@@ -1,0 +1,15 @@
+{
+  "title": "Perfume ad 15s",
+  "style": "Premium commercial, macro lens, soft rim light, shallow depth of field",
+  "aspect": "9:16",
+  "duration": 15,
+  "references": [{"tag": "image1", "role": "product identity: keep bottle shape and label exact"}],
+  "shots": [
+    {"t": [0, 5], "size": "extreme close-up", "move": "slow dolly-in", "subject": "the perfume bottle from @image1 on wet black stone", "action": "a water droplet slides down the glass", "setting": "dark studio, gold rim light"},
+    {"t": [5, 10], "size": "medium", "move": "180-degree orbit", "subject": "a woman in a silk dress lifts the bottle from @image1", "action": "she sprays it and smiles", "setting": "sunset balcony"},
+    {"t": [10, 15], "size": "close-up", "move": "static", "subject": "the bottle from @image1", "action": "petals settle around it",
+     "voiceover": {"lang": "English", "text": "Golden hour, bottled."}}
+  ],
+  "bgm": "soft piano with light strings",
+  "constraints": ["no on-screen text", "no watermark"]
+}

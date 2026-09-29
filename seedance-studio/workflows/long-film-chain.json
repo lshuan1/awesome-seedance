@@ -1,0 +1,16 @@
+{
+  "title": "Chain clip 2 (continue from accepted clip 1)",
+  "style": "Cinematic drama, natural light",
+  "aspect": "16:9",
+  "duration": 10,
+  "references": [
+    {"tag": "image1", "role": "first frame = last frame of previous accepted clip"},
+    {"tag": "image2", "role": "character Lin: keep face and red coat"}
+  ],
+  "shots": [
+    {"t": [0, 5], "size": "medium", "move": "tracking shot following behind", "subject": "Lin from @image2 continues from @image1", "action": "walks into the station hall", "setting": "same lighting as @image1",
+     "dialogue": {"speaker": "Lin", "lang": "Mandarin", "text": "我到了。"}},
+    {"t": [5, 10], "size": "wide", "move": "crane up", "subject": "Lin", "action": "stops and looks at the departure board", "setting": "crowded hall", "sfx": "distant announcements"}
+  ],
+  "constraints": ["no on-screen text", "no watermark"]
+}

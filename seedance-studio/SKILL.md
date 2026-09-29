@@ -13,6 +13,7 @@ against known failure modes, and only then submits it.
 ## Workflow
 
 1. **Brief** – Ask only for what is missing: subject, duration (<=15s per clip), aspect ratio, language of speech, reference files.
+1b. **Complex scene? Blockout first** – stage it in 3D boxes, render a clay video as `@video1`, use `scripts/blockout.py infer` for the camera wording. See `references/blockout-3d.md`.
 2. **Storyboard** – Write a spec JSON (`workflows/*.json` are templates). One shot = one camera move. See `references/prompt-formula.md`.
 3. **Lint** – `python3 scripts/sdprompt.py lint spec.json` — fix every `ERROR`, consider every `WARN`.
 4. **Compile** – `python3 scripts/sdprompt.py build spec.json` prints the final prompt.

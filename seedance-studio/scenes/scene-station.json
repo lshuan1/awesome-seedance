@@ -1,0 +1,12 @@
+{
+  "objects": [
+    {"name": "Lin", "size": [0.5, 0.3, 1.7], "pos": [0, 0, 0], "path": [{"t": 0, "pos": [0, 0, 0]}, {"t": 5, "pos": [0, 6, 0]}]},
+    {"name": "departure_board", "size": [4, 0.3, 1.5], "pos": [0, 12, 2.5]},
+    {"name": "pillar_L", "size": [1, 1, 5], "pos": [-4, 6, 0]},
+    {"name": "pillar_R", "size": [1, 1, 5], "pos": [4, 6, 0]}
+  ],
+  "camera": {"lens_mm": 35, "keys": [
+    {"t": 0, "pos": [0, -4, 1.5], "look_at": [0, 0, 1.2]},
+    {"t": 5, "pos": [0, 2, 1.5], "look_at": [0, 6, 1.2]}
+  ]}
+}
